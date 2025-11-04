@@ -488,6 +488,12 @@ export function HeaderNav() {
 
                 <Button asChild className="bg-primary hover:bg-primary/90 mt-4">
                   <a href="https://portal.gtscloud.io/signup" target="_blank" rel="noopener noreferrer">
+                    Sign In
+                  </a>
+                </Button>
+
+                <Button asChild className="bg-primary hover:bg-primary/90 mt-4">
+                  <a href="https://portal.gtscloud.io/signup" target="_blank" rel="noopener noreferrer">
                     Sign Up
                   </a>
                 </Button>
@@ -495,6 +501,11 @@ export function HeaderNav() {
             </SheetContent>
           </Sheet>
 
+          <Button asChild className="hidden lg:inline-flex bg-black hover:bg-black border border-red-500 text-white">
+            <a href="https://portal.gtscloud.io/login" target="_blank" rel="noopener noreferrer">
+              Sign In
+            </a>
+          </Button>
           <Button asChild className="hidden lg:inline-flex bg-primary hover:bg-primary/90">
             <a href="https://portal.gtscloud.io/signup" target="_blank" rel="noopener noreferrer">
               Sign Up
