@@ -31,14 +31,14 @@ export default function ContactPage() {
                     <div className="space-y-2 pl-7 text-muted-foreground">
                       <p>
                         <strong>General Enquiries:</strong>{' '}
-                        <a href="mailto:enquiries@gtscloud.example" className="text-primary hover:underline">
-                          enquiries@gtscloud.example
+                        <a href="mailto:contact@globalgtstech.com" className="text-primary hover:underline">
+                          contact@globalgtstech.com
                         </a>
                       </p>
                       <p>
                         <strong>Support:</strong>{' '}
-                        <a href="mailto:support@gtscloud.example" className="text-primary hover:underline">
-                          support@gtscloud.example
+                        <a href="mailto:contact@globalgtstech.com" className="text-primary hover:underline">
+                          contact@globalgtstech.com
                         </a>
                       </p>
                     </div>
